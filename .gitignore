@@ -1,0 +1,101 @@
+# ==========================================
+# Schrodinger's Box Gitignore - Safe & Clean
+# ==========================================
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# --- Node / Frontend (React + Vite) ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+out/
+build/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Python / Backend (FastAPI) ---
+venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+.Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+pip-log.txt
+pip-delete-this-directory.txt
+parts/
+sdist/
+var/
+eggs/
+develop-eggs/
+downloads/
+eggs/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+bin/
+include/
+share/
+local/
+
+# --- Database & State (SQLite / Redis) ---
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backend/db/schrodinger.db
+
+# --- IDE & Editors ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Logs and Caches ---
+logs/
+*.log
+*.log.*
